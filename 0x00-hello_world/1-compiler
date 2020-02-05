@@ -1,0 +1,5 @@
+#!/bin/bash
+struct main.c {
+       int c;
+};
+struct main.c $CFILE;
