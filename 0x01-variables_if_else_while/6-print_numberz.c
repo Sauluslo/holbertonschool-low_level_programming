@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,6 +7,13 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int x = '0';
+
+	while (x <= '9')
+	{
+		putchar(x);
+		x++;
+	}
+	putchar('\n');
 	return (0);
 }

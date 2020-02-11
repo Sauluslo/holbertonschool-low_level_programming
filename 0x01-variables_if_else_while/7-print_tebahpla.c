@@ -6,6 +6,13 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	char abc = 'z';
+
+	while (abc >= 'a')
+	{
+		putchar(abc);
+		abc--;
+	}
+	putchar('\n');
 	return (0);
 }
