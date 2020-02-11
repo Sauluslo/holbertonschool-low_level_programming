@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet_x10 - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
@@ -12,10 +12,10 @@ void print_alphabet_x10(void)
 	int l;
 	char moe;
 
-	for(l = 0; l <= 9; l++)
+	for (l = 0; l <= 9; l++)
 	{
-		for(moe = a; moe <= b; moe++)
-		{	
+		for (moe = a; moe <= b; moe++)
+		{
 			_putchar(moe);
 		}
 	_putchar('\n');
