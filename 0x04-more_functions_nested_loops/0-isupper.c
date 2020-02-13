@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if (c == 67)
+	if (c == 'A')
 	{
 		return (1);
 	}
