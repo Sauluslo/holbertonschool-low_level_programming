@@ -1,7 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - check the code for Holberton School students.
+ * swap_int - check the code for Holberton School students.
+ * @a: Integer a
+ * @b: Integer b
  *
  * Return: Always 0.
  */
