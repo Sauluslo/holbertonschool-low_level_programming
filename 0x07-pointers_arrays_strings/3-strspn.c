@@ -1,7 +1,6 @@
 #include "holberton.h"
-
 /**
- * strspn - Returns the number of bytes in the initial
+ * _strspn - Returns the number of bytes in the initial
  * segment of s which consist only of bytes from accept
  * @s: string char.
  * @accept: string char.
@@ -12,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int c1;
 	unsigned int c2;
-	unsigned int u;
+	unsigned int u = 0;
 
 	for (c1 = 0; s[c1] != ' '; c1++)
 	{
