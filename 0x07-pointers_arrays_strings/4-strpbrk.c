@@ -5,8 +5,7 @@
  * @s: poiter.
  * @accept: value char 2
  *
- * Return: Always 0.
- * @ps: pointer a c1.
+ * Return: pointer ps.
  */
 char *_strpbrk(char *s, char *accept)
 {
