@@ -1,6 +1,8 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * set_string - check the code for Holberton School students.
+ * @s: pointer a oyher pointer.
+ * @to: pointer.
  *
  * Return: Always 0.
  */
