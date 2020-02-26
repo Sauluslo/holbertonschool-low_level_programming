@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _puts_recursion - The standard library provides a similar function: 
+ * _puts_recursion - The standard library provides a similar function:
  * puts. Run man puts to learn more.
  * @s: string a recorrer.
  *
@@ -11,6 +11,10 @@ void _puts_recursion(char *s)
 	{
 		_putchar(*s);
 		s++;
+		_puts_recursion(s);
 	}
-	_putchar(s);
+	else
+	{
+		_putchar('\n');
+	}
 }
