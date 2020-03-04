@@ -3,7 +3,7 @@
 #include <stdlib.h>
 int _strlen(char *a);
 /**
- * strlen - check the code for Holberton School students.
+ * _strlen - check the code for Holberton School students.
  * @a: array a contar
  * Return: Always 0.
  */
@@ -18,7 +18,7 @@ int _strlen(char *a)
 }
 
 /**
- * strdup - check the code for Holberton School students.
+ * _strdup - check the code for Holberton School students.
  * @str: array value
  * Return: Always 0.
  */
