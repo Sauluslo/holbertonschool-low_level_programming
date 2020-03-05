@@ -1,7 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
-int _strlen(char *a);
 /**
  * _strlen - check the code for Holberton School students.
  * @a: array a contar
@@ -34,7 +33,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	s = (char *)malloc(sizeof(char) * x + 1);
+	s = malloc(sizeof(char) * x + 1);
 	if (s == NULL)
 	{
 		return (NULL);
