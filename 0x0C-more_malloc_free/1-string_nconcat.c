@@ -22,13 +22,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	}
 	for (long1 = 0; s1[long1] != '\0'; long1++)
-	{
 		;
-	}
 	for (long2 = 0; s2[long2] != '\0'; long2++)
-	{
 		;
-	}
 	if (ui >= long2)
 	{
 		ui = long2;
