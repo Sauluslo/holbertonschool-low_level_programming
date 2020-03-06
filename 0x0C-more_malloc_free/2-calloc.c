@@ -1,5 +1,8 @@
 #include "holberton.h"
+#include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * _calloc - a function that allocates memory using malloc.
  * @nmemb: the address of memory to print
@@ -9,7 +12,7 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *p;
+	char *p;
 	unsigned int count;
 
 	if (nmemb == 0 || size == 0)
@@ -22,9 +25,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	for (count = 0; count < nmemb * size; count++)
+	count = 0;
+	while (count < nmemb * size)
 	{
 		p[count] = 0;
+		count++;
 	}
 	return (p);
 }
