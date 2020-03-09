@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * main - program that prints file name.
+ * init_dog - program that prints file name.
+ * @d: lol
+ * @name: lol2
+ * @age: lol3
+ * @owner: lol4
  *
- * Return: 0 always.
+ * Return: void always.
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
