@@ -1,16 +1,19 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
+ * new_dog - this is
+ * @name: name my dog.
+ * @age: Age of my dog.
+ * @owner: i am owner.
  *
- *
- *
- *
+ * Return: new dog in the case is true.
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int x, y, z;
 
 	dog_t *newdog;
+
 	newdog = malloc(sizeof(dog_t));
 	if (newdog == NULL)
 	{
@@ -28,11 +31,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	newdog->owner = malloc(sizeof(char) * y + 1);
 	if (newdog->owner == NULL)
-        {
+	{
 		free(newdog->name);
-                free(newdog);
-                return (NULL);
-        }
+		free(newdog);
+		return (NULL);
+	}
 	for (z = 0; z < x; z++)
 		newdog->name[z] = name[z];
 	newdog->name[z] = '\0';
