@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include "function_pointers.h"
 /**
- * print_name - function pointer to print name.
- * @name: type char of pointer.
- * @f: pointer to function.
+ * array_iterator - function to iterate through arrays.
+ * @array: type int pointer to array.
+ * @size: typedef size_t.
+ * @action: pointer to function.
  *
  * Return: Print name Always successful.
 */
