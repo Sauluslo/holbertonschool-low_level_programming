@@ -1,6 +1,7 @@
 #ifndef LIST_HOL
 #define LIST_HOL
 
+#include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 
