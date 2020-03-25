@@ -1,11 +1,11 @@
 #include "lists.h"
 /**
- * free_listint - function to free head memory used.
+ * free_listint2 - function to free head memory used.
  * @head: pointer to head of struct listint_t type..
  *
  * Return: always successful.
 */
-void free_listint(listint_t *head)
+void free_listint2(listint_t **head)
 {
 	listint_t *aux = NULL, *aux2 = NULL;
 
