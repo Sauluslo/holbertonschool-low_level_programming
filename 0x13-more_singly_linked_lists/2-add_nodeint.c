@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * add_node - function that prints all the elements of a list_t list.
+ * add_nodeint - function that prints all the elements of a list_t list.
  * @head: pointer to print list.
- * @str: strings
+ * @n: strings
  *
  * Return: the number of nodes.
 */
