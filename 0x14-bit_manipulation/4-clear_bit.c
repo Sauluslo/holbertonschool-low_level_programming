@@ -6,7 +6,7 @@
  *
  * Return: always successful.
 */
-int clear_bit(unsigned long int *n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int tru = 1;
 	unsigned int size = sizeof(n) * 8;
