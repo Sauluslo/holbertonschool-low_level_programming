@@ -1,4 +1,5 @@
 #include "holberton.h"
+unsigned int count_bit(unsigned long int n);
 /**
  * count_bit - function that prints the binary representation of a number.
  * @n: unsigned long int type.
