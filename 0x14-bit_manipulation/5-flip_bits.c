@@ -26,5 +26,5 @@ unsigned int count_bit(unsigned long int n)
 */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	return (count_bit n ^ m);
+	return (count_bit(n ^ m));
 }
