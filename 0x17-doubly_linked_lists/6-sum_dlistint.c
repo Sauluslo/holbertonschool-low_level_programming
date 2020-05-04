@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
- * print_dlistint - function that print the elements of a DLL.
- * @h: pointer of const dlistint.
+ * sum_dlistint - function that returns the sum of all the data (n)
+ * of a dlistint_t linked list.
+ * @head: pointer of const dlistint.
  *
  * Return: list and number of elements.
 */
