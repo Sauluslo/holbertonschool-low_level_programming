@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint - function that adds a new node at the beginning 
+ * add_dnodeint - function that adds a new node at the beginning
  * of a dlistint_t list.
  * @head: pointer head of the DLL
  * @n: const int
