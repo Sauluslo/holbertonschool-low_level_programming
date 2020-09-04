@@ -6,9 +6,8 @@
  * @size: the number of elements in array
  * @value:  the value to search for Your function must return
  * the first index where value is located
- *
  * Return: index of valu or -1 if not is found
-*/
+ */
 int linear_search(int *array, size_t size, int value)
 {
 	size_t idx;
